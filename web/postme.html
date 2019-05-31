@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />-->
+    <title>Пришли письмо</title>
+    <link rel="stylesheet" href="css/login-style.css">
+</head>
+<body>
+<h1>Пришли кому-нибудь письмецо</h1>
+<div class="helptext">
+    <form action="postmeservlet" method="post" accept-charset="UTF-8">
+        <table>
+            <tr>
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Кому?"></td>
+            </tr>
+            <tr>
+                <td><label for="subject">Тема письма:</label></td>
+                <td><input type="text" id="subject" name="subject" placeholder="О чем будем писать?"></td>
+            </tr>
+            <tr>
+                <td><label for="cc">Копия:</label></td>
+                <td><input type="email" id="cc" placeholder="Кого ставим в копию?" name="cc"></td>
+            </tr>
+            <tr>
+                <td><label for="text">Текст письма:</label></td>
+                <td><textarea id="text" cols="50" rows="15" placeholder="Введите текст письма" name="text"></textarea>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Отправить!</button>
+    </form>
+</div>
+<div class="helptext">
+    <form action="index.html">
+        <button type="submit">Отмена</button>
+    </form>
+</div>
+
+
+</body>
+</html>

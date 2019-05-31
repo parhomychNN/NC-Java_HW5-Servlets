@@ -1,0 +1,41 @@
+.login-form{
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #aaaaaa;
+    background: #eeeeee;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+table{
+    border-spacing: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background: #c78895;
+}
+
+.helptext{
+    width: 600px;
+    border-radius: 10px;
+    border: 1px solid #aaaaaa;
+    background: #eeeeee;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+a{
+    display: inline-block;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    text-decoration: none;
+}
+a:hover{
+    transition-duration: 0.5s;
+    background-color: #dddddd;
+}
